@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include modon_statistics *.css
+recursive-include modon_statistics *.csv
+recursive-include modon_statistics *.html
+recursive-include modon_statistics *.ico
+recursive-include modon_statistics *.js
+recursive-include modon_statistics *.json
+recursive-include modon_statistics *.md
+recursive-include modon_statistics *.png
+recursive-include modon_statistics *.py
+recursive-include modon_statistics *.svg
+recursive-include modon_statistics *.txt
+recursive-exclude modon_statistics *.pyc
