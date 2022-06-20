@@ -1,0 +1,45 @@
+{
+ "cards": [
+  {
+   "card": "Active Servers"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Server Users",
+   "width": "Full"
+  },
+  {
+   "chart": "Sales Invoices",
+   "width": "Half"
+  },
+  {
+   "chart": "Sales Invoices Last Month",
+   "width": "Half"
+  },
+  {
+   "chart": "Purchase Invoices",
+   "width": "Half"
+  },
+  {
+   "chart": "Purchase Invoices Last Month",
+   "width": "Half"
+  },
+  {
+   "chart": "Work Orders",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-06-20 11:18:36.335007",
+ "dashboard_name": "Servers Statistics",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-06-20 13:04:14.366658",
+ "modified_by": "Administrator",
+ "module": "Modon Statistics",
+ "name": "Servers Statistics",
+ "owner": "Administrator"
+}

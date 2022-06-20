@@ -11,7 +11,14 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
+fixtures =[
+	{"dt":"Server"},
+	{"dt":"Server Statistics"},
+	{"dt":"Workspace","filters":[['name','in',['Modon']]]},
 
+
+
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/modon_statistics/css/modon_statistics.css"
 # app_include_js = "/assets/modon_statistics/js/modon_statistics.js"

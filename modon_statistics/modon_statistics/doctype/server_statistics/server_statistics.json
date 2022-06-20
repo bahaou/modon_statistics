@@ -1,0 +1,190 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:server",
+ "creation": "2022-06-17 17:55:31.772629",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "server",
+  "erpnext_version",
+  "column_break_3",
+  "disabled",
+  "installed_apps",
+  "url",
+  "users_section",
+  "total_users",
+  "active_users_last_month",
+  "column_break_9",
+  "activity_today",
+  "selling_section",
+  "total_sales_invoices",
+  "sales_invoices_last_month",
+  "buying_section",
+  "total_purchase_invoices",
+  "purchase_invoices_last_month",
+  "manufacturing_section",
+  "total_work_orders",
+  "work_orders_last_month",
+  "rdp"
+ ],
+ "fields": [
+  {
+   "fieldname": "server",
+   "fieldtype": "Link",
+   "label": "Server",
+   "options": "Server",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "activity_today",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Activity Today",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "total_users",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Users",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "active_users_last_month",
+   "fieldtype": "Data",
+   "label": "Active Users Last Month",
+   "read_only": 1
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "url"
+  },
+  {
+   "fieldname": "users_section",
+   "fieldtype": "Section Break",
+   "label": "Users"
+  },
+  {
+   "fieldname": "selling_section",
+   "fieldtype": "Section Break",
+   "label": "Selling"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_sales_invoices",
+   "fieldtype": "Int",
+   "label": "Total Sales Invoices",
+   "read_only": 1
+  },
+  {
+   "fieldname": "buying_section",
+   "fieldtype": "Section Break",
+   "label": "Buying"
+  },
+  {
+   "fieldname": "manufacturing_section",
+   "fieldtype": "Section Break",
+   "label": "Manufacturing"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_work_orders",
+   "fieldtype": "Int",
+   "label": "Total Work Orders",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "total_purchase_invoices",
+   "fieldtype": "Int",
+   "label": "Total Purchase Invoices",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "sales_invoices_last_month",
+   "fieldtype": "Int",
+   "label": "Sales Invoices Last Month",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "purchase_invoices_last_month",
+   "fieldtype": "Int",
+   "label": "Purchase Invoices Last Month",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "work_orders_last_month",
+   "fieldtype": "Int",
+   "label": "Work Orders Last Month",
+   "read_only": 1
+  },
+  {
+   "fieldname": "erpnext_version",
+   "fieldtype": "Data",
+   "label": "Erpnext Version",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fetch_from": "server.disabled",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "server.rdp",
+   "fieldname": "rdp",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "rdp"
+  },
+  {
+   "fieldname": "installed_apps",
+   "fieldtype": "Data",
+   "label": "Installed Apps",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-20 13:40:44.230663",
+ "modified_by": "Administrator",
+ "module": "Modon Statistics",
+ "name": "Server Statistics",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

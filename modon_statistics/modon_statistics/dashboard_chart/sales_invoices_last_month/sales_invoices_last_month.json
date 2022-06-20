@@ -1,0 +1,32 @@
+{
+ "chart_name": "Sales Invoices Last Month",
+ "chart_type": "Report",
+ "creation": "2022-06-20 12:16:24.342379",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2022-06-20 12:29:24.083272",
+ "modified_by": "Administrator",
+ "module": "Modon Statistics",
+ "name": "Sales Invoices Last Month",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Server Statistics",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "name",
+ "y_axis": [
+  {
+   "color": "#9a1da1",
+   "y_field": "sales_invoices_last_month"
+  }
+ ]
+}
