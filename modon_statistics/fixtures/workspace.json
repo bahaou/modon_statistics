@@ -9,6 +9,13 @@
     "parent": "Modon",
     "parentfield": "charts",
     "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Activity Today",
+    "label": null,
+    "parent": "Modon",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
    }
   ],
   "charts_label": null,
@@ -86,7 +93,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2022-06-20 16:06:49.964188",
+  "modified": "2022-06-20 16:33:07.280621",
   "module": "Modon Statistics",
   "name": "Modon",
   "onboarding": null,

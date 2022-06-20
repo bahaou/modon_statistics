@@ -54,6 +54,12 @@ def get_columns(filters):
 			"width": 100,
 		},
 		{
+			"label": _("Activity Today"),
+			"fieldname": "activity_today",
+			"fieldtype": "Int",
+			"width": 100,
+		},
+		{
 			"label": _("Sales Invoices"),
 			"fieldname": "total_sales_invoices",
 			"fieldtype": "Int",

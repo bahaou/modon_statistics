@@ -1,0 +1,32 @@
+{
+ "chart_name": "Activity Today",
+ "chart_type": "Report",
+ "creation": "2022-06-20 16:32:50.771105",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2022-06-20 16:33:19.975906",
+ "modified_by": "Administrator",
+ "module": "Modon Statistics",
+ "name": "Activity Today",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Server Statistics",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "name1",
+ "y_axis": [
+  {
+   "color": "#ECAD4B",
+   "y_field": "activity_today"
+  }
+ ]
+}
