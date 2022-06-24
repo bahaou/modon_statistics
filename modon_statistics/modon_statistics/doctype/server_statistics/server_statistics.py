@@ -21,8 +21,10 @@ def sync(server=None):
 		servers=[{"name":server}]
 	else:
 		servers=frappe.db.get_list("Server")
+	n=len(servers)
+	i=1
 	for s in servers:
-		print(s)
+		print((i/n)*100)
 		s=s["name"]
 		if frappe.db.exists("Server Statistics",s):
 			doc=frappe.get_doc("Server Statistics",s)
@@ -93,6 +95,7 @@ def sync(server=None):
 		doc.work_orders_last_month=len(response.json()["data"])
 
 		doc.save()
+		i+=1
 	frappe.db.commit()
 
 

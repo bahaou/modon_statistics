@@ -16,6 +16,7 @@
   "column_break_9",
   "disabled",
   "contract_ends",
+  "description",
   "section_break_6",
   "api_key",
   "api_secret"
@@ -88,11 +89,16 @@
    "fieldname": "rdp",
    "fieldtype": "Data",
    "label": "rdp"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 15:49:40.028185",
+ "modified": "2022-06-20 16:50:15.905869",
  "modified_by": "Administrator",
  "module": "Modon Statistics",
  "name": "Server",

@@ -3,6 +3,7 @@
 
 import frappe
 from frappe import _
+from datetime import datetime
 
 def execute(filters=None):
 	columns=get_columns(filters)
@@ -12,11 +13,15 @@ def execute(filters=None):
 
 
 def get_data(filters):
+	now=datetime.now()
 	servers=frappe.db.get_list("Server Statistics",fields=["*"])
 	data=[]
 	for s in servers:
+		print(now,s["modified"])
+		diff=frappe.utils.getdate(s["modified"])-frappe.utils.getdate()
 		link="<a href='"+s["url"]+"'>"+s["name"]+"</a>"
-		s["name1"]=link
+		s["name1"]=s["name"]
+		s['modified']=diff
 		link="<a href='"+s["rdp"]+"'>rdp</a>"
 		s["rdp1"]=link
 		data.append(s)
@@ -94,6 +99,13 @@ def get_columns(filters):
 			"fieldname": "work_orders_last_month",
 			"fieldtype": "Int",
 			"width": 101,
+		}
+		,
+		{
+			"label": _("Last Sync"),
+			"fieldname": "modified",
+			"fieldtype": "Data",
+			"width": 150,
 		}
 
 	]

@@ -113,24 +113,10 @@ fixtures =[
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"modon_statistics.tasks.all"
-# 	],
-# 	"daily": [
-# 		"modon_statistics.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"modon_statistics.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"modon_statistics.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"modon_statistics.tasks.monthly"
-# 	]
-# }
-
+scheduler_events = {
+	"all": [
+		""	]
+}
 # Testing
 # -------
 
